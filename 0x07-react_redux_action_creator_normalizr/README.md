@@ -1,0 +1,8 @@
+0. **Read data from a JSON** - Reuse the latest dashboard project you worked on in the React course `0x06-React_state`. For this task, place `notifications.json` into the root of the project directory and use the data inside for the next step
+1. **Normalize a nested JSON** - Copy over `dashboard` from the previous task into a `task_1` directory at the root of the project. Modify `src/schema/notifications.js` to set up a schema using Normalizr. You're going to use `schema.Entity` to create a 3 of entities
+2. **Filter a normalized Schema** - Copy the contents of `dashboard` from the `task_1` direcotry into a `task_2` directory at the root of the project. Modify the function `getAllNotificationsByUser` to use the normalized dataset
+3. **Create actions for the course list** - Copy the `dashboard` folder from the `task_2` directory into a directory named `task_3`. Create a new folder named `actions`
+4. **Create actions for the UI** - Copy the dashboard folder from `task_3` into a directory labeled `task_4`. In `src/actions/uiActionTypes.js`, create four action types: e.g. `export const LOGIN = "LOGIN"`
+5. **Create actions for the notification list** - Copy `dashboard` from the `task_4` directory into `task_5`
+6. **Bound the actions** - Modify the Course actions creators, Modify the Notification actions creators and Modify the UI actions creators
+7. **Async Action Creators** - Set up Redux and Redux Thunk. Install `redux` and `redux-thunk` in your project. Simulate an API. Copy the file `login-success.json` into the `dist` folder. You can do the same with the `notifications.json` file as well now. These files will be available on the web server and will be your own API. Create the first Async Action Creator
